@@ -1,0 +1,72 @@
+
+
+div {
+	background: #ff8000 ;
+}
+#cabecera {
+	height: 150px ;
+	border: dotted;
+}
+
+#lateral {
+	width: 50% ;
+}
+
+#destacado {
+	height: 80px ;
+	margin-left: 2em ;
+	padding: 1em ;
+	font-size: 20px ;
+}
+
+.espaciado {
+	margin: 1em ;
+	padding: 2em ;
+	background: rgba(255,255,0,0.5);
+	height: 200px ;
+	overflow: auto;
+	border: 2px solid #000;
+}
+
+img {
+	float: right;
+	padding: 1em ;
+}
+
+br {
+	clear: both;
+}
+
+
+
+
+ /*CLASES*/
+
+
+.destacado {
+	color: red;
+}
+
+a.link {
+	color: magenta ;
+}
+
+.aviso {
+	padding: 0.05em ;
+	border: 1px solid #982010 ;
+	background: #f6feda ;
+	width: 100% ;
+}
+
+.error {
+	color: #930;
+	font-weight: bold;
+}
+
+.error, .destacado {
+	font-size: 30px ;
+}
+
+.especial {
+	font-weight: bold;
+}
