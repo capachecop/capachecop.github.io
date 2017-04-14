@@ -141,6 +141,7 @@ footer {
 }
 
 p {
+	margin: 10px ;
 	font-size: 20px;
 	font-weight: bolder;
 	line-height: 25px;
@@ -185,6 +186,25 @@ p {
 .menu:active{
 	color: white; 
 	text-decoration: none;
+}
+
+.listar li {
+	float: none;
+	padding: 10px;
+	background: ##F47920;
+	border-radius: 10px;
+	margin: 5px;
+	list-style-type: none;
+	box-shadow: 0 0 10px white inset;
+	color: white ;
+}
+
+.impar {
+	margin: 10px ;
+	padding: 10px ;
+	background: #E8DAEF ;
+	border-radius: 10px;
+	color: #005883 ;
 }
 
 /*SEUDO CLASES*/
