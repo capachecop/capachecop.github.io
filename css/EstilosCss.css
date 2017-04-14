@@ -49,10 +49,10 @@ h2 {
 
 h3 {
 	font-family: 'Libre Franklin', sans-serif;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: 5px;
 	font-size: 15px;
-	text-align: right;
+	text-align: center;
+	color: #F47920 ;
 }
 	
 header {
@@ -85,13 +85,13 @@ nav {
 
 ul {
 	margin: auto;
-	padding-top: 4px;
+	padding-top: 2px;
 
 }
 
 li {
 	float: left;
-	padding: 10px;
+	padding: 5px;
 	background: #005883;
 	border-radius: 10px;
 	margin: 3px;
@@ -101,12 +101,20 @@ li {
 
 section {
 	width: 900px;
-	height: 600px;
+	height: 90%;
 	background: white;
 	color: #005883;
 	float: left;
 	margin: 5px;
 	border-radius: 15px;
+}
+
+article {
+	float: left;
+}
+
+br {
+	clear: both;
 }
 
 aside {
