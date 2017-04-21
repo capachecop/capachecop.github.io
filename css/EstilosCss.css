@@ -202,10 +202,31 @@ p {
 .impar {
 	margin: 10px ;
 	padding: 10px ;
-	background: #E8DAEF ;
+	background: lightgray ;
 	border-radius: 10px;
 	color: #005883 ;
 }
 
+.par {
+	margin: 10px ;
+	padding: 10px ;
+	background: lightblue ;
+	border-radius: 10px;
+	color: #005883 ;
+}
+
+a:link {
+	color: red ;
+}
+
+a:hover {
+    color: hotpink;
+
+ }
+
+
+#finparrafo {
+	color: #A54686 ;
+}
 /*SEUDO CLASES*/
 
