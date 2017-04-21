@@ -207,6 +207,15 @@ p {
 	color: #005883 ;
 }
 
+.autor {
+	margin: 10px ;
+	padding: 10px ;
+	background: lightgray ;
+	border-radius: 10px;
+	color: #005883 ;
+	position: relative;
+}
+
 .par {
 	margin: 10px ;
 	padding: 10px ;
