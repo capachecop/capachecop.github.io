@@ -59,6 +59,10 @@ header {
 	width: 1200px;
 	height: 220px;
 	background-color: white ;
+	text-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+	-webkit-text-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+	-ms-text-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+	-moz-text-shadow: 5px 5px 10px rgba(0,0,0,0.5);
 	/*background: rgba(255, 255, 255, 0,6);*/
 	border-radius: 15px;
 	text-align: center;
@@ -103,6 +107,11 @@ section {
 	width: 900px;
 	height: 90%;
 	background: white;
+	text-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+	-webkit-text-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+	-ms-text-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+	-moz-text-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+	/*background: rgba(255, 255, 255, 0,6);*/ 
 	color: #005883;
 	float: left;
 	margin: 5px;
@@ -119,24 +128,26 @@ br {
 
 aside {
 	width: 280px;
-	height: 600px;
+	height: auto;
 	background: #F0B429;
 	color: #006680;
 	float: left;
-	margin-left: 10px;
 	margin: 5px;
+	padding: 0.5em auto ;
 	border-radius: 15px;
 
 }
 
 footer {
+	padding: 5px ;
+	margin: 0.25em auto ;
 	width: 1200px;
-	height: 50px;
+	height: 170px;
 	background: #A54686;
-	float: left;
-	margin-top: 10px;
 	border-radius: 10px;
-	color: white;
+	color: white ; 
+	display: inline-block; 
+	vertical-align: top ;
 
 }
 
@@ -146,9 +157,42 @@ p {
 	font-weight: bolder;
 	line-height: 25px;
 	padding: 10px;
-	text-align: justify;
+	text-align: justify ;	
 
 }
+#footer1 {
+	
+	margin: 0.25em auto; 
+	padding: 5px ;
+	text-align: left;
+	width: 40% 
+}
+
+#footer {
+	
+	margin: 0.25em auto; 
+	padding: 5px ;
+	text-align: right;
+	width: 40% 
+}
+
+#tab {
+    position: absolute;
+    width: 130px;
+    height: 20px;
+    top: 35px;
+    left: 25px;
+    cursor: pointer;
+}
+
+#lateral {
+	float: left;
+	padding: 5px;
+	background: #ffffff;
+	border-radius: 10px;
+	margin: 3px;
+	list-style-type: none;
+	box-shadow: 0 0 10px white inset;
 
 /*CLASES*/
 
